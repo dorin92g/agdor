@@ -1,0 +1,26 @@
+{
+    "name": "rkit/yii2-ajaxform-plugin",
+    "description": "Yii2 Ajax Form",
+    "keywords": ["yii2", "extension", "ajax", "form", "ajax-form"],
+    "homepage": "https://github.com/rkit/yii2-ajaxform-plugin",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Romanov",
+            "email": "rkit.ru@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rkit/yii2-ajaxform-plugin/issues?state=open",
+        "source": "https://github.com/rkit/yii2-ajaxform-plugin"
+    },
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rkit\\yii2\\plugins\\ajaxform\\": "src"
+        }
+    }
+}
