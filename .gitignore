@@ -1,2 +1,11 @@
 # phpstorm project files
 .idea/
+
+# frontend conf
+config/frontend.conf
+
+# composer itself is not needed
+composer.phar
+
+# NPM packages
+/node_modules
