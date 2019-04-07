@@ -2,7 +2,7 @@
 use yii\helpers\Url;
 
 ?>
-<p>site index view</p>
+<p style="height: 1000px;">site index view</p>
 
 
 

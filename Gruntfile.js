@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-node-minify');
     grunt.loadNpmTasks('grunt-contrib-watch');
@@ -12,7 +13,8 @@ module.exports = function (grunt) {
                     optimization: 2
                 },
                 files: {
-                    "web/header/header.css": "web/header/header.less"
+                    "web/header/header.css": "web/header/header.less",
+                    "web/home/home-hero.css": "web/home/home-hero.less"
                 }
             }
         },
